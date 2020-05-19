@@ -1,0 +1,47 @@
+{
+  "name": "react-native-image-watermark",
+  "version": "1.0.0",
+  "description": "Add watermark to picture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watermark",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "Kris Chen <165588610@qq.com> (github.com/CNkris)",
+  "contributors": [
+    {
+      "name" : "yanjie",
+      "email" : "",
+      "url" : ""
+    },
+    {
+      "name" : "tanzheng",
+      "email" : ""
+    }
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CNkris/react-native-image-watermark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CNkris/react-native-image-watermark/issues"
+  },
+  "homepage": "https://github.com/CNkris/react-native-image-watermark#readme",
+  "rnpm": {
+    "android": {
+      "packageInstance": "new WatermarkPackage()"
+    },
+    "ios": {
+      "project": "iOS/RCTImageWatermark.xcodeproj"
+    }
+  }
+}
