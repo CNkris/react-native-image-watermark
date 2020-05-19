@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/yamill/react-native-orientation.git', :tag => s.version }
+  s.source         = { :git => 'https://github.com/CNkris/react-native-image-watermark.git', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
 
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
-  s.source_files   = 'iOS/RCTOrientation/*.{h,m}'
+  s.source_files   = 'iOS/RCTImageWatermark/*.{h,m}'
 
   s.dependency 'React'
 end
